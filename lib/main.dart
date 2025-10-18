@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:manejo_de_estados/product_page.dart';
 import 'package:manejo_de_estados/sabado_page.dart';
 
 void main() {
@@ -11,6 +12,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Flutter Demo', home: SabadoPage());
+    return MaterialApp(title: 'Flutter Demo', home: ProductPage());
   }
 }
