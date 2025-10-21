@@ -15,7 +15,7 @@ class _ProductPageState extends State<ProductPage> {
   Widget build(BuildContext context) {
     void getProductos() async {
       final dio = Dio();
-      final response = await dio.get('http://10.16.0.80:3000/products');
+      final response = await dio.get('http://10.16.0.89:3000/products');
       setState(() {
         products = response.data;
       });
